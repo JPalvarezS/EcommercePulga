@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: black underline;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.main-menu {
+  background-color: #415bee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  padding: 0 1.5rem;
+}
+
+.menu-desktop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.links-menu {
+  padding-top: 0.1rem;
+  line-height: 100px;
+  color: white;
+  transition: 0.5s all ease-in-out;
+  font-size: 2rem;
+  margin: 150px;
+}
+
+#Hombres {
+  float: left;
+  height: 20%;
+  width: 20%;
+  margin: 40px;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-left: 10%;
+  padding-top: 100px;
+}
+
+section {
+  margin-bottom: 400px;
+}
+
+.info-hombres {
+  padding-top: 20px;
+}
+
+.info-hombres > h2 {
+  margin: 15px;
+  font-size: 5rem;
+  font-style: oblique;
+  margin-top: 250px;
+}
+
+.info-hombres > p {
+  font-size: 2rem;
+  margin-top: 200px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  margin: 2px;
+  height: 1300px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.articulos > img {
+  width: 500px;
+  height: 500px;
+}
+
+figcaption {
+  font-size: 1.2rem;
+}
+
+.articulos > p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 10px 0 15px 0;
+}
+
+.precio {
+  color: rgb(24, 161, 240);
+  font-style: oblique;
+}
